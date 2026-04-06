@@ -37,11 +37,12 @@ A diagnostic comparison showed the T-learner (cross-validated Qini: 6.70) perfor
 
 ## Setup
 
+\\\powershell
 python -m venv venv
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 jupyter lab
-
+\\\`n
 ## Data
 
 Source: Harvard Business School case 9-521-021, Artea: Designing Targeting Strategies (Ascarza and Israeli, 2020). The dataset is not included in this repository. Place AB Data.xlsx in the project root before running the notebook.
